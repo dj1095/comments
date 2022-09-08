@@ -13,7 +13,7 @@ public class CommentController {
     @GetMapping("/all/comments")
     public List<Comment> getAllComments(){
         List<Comment> comments = new ArrayList<>();
-        comments.add(Comment.builder().email("du@gmail.com").comment("Hey There").build());
+        comments.add(Comment.builder().email("ku@gmail.com").comment("Hey There").build());
         return comments;
     }
 }
